@@ -24,7 +24,7 @@ public class GeneralTest extends Base{
 		LandingPage lap = new LandingPage(driver);
 		
 		lop = lap.SingIn();
-		lop.login("aarcasahin@gmail.com", "31qcnvjt1");
+		lop.login("-------", "-------");
 		lap = lop.ClickLogin();
 		
 	}
